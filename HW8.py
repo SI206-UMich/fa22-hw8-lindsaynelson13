@@ -51,7 +51,6 @@ def barchart_restaurant_categories(db_filename):
     sorted_category_dict = sorted(category_dict.items(), key = lambda x:x[1])
     sorted_dict = dict(sorted_category_dict)
 
-
     plt.barh(list(sorted_dict.keys()), list(sorted_dict.values()))
     plt.xlabel('Number of Restaurants')
     plt.ylabel('Restaurant Categories')

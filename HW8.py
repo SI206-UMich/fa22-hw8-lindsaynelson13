@@ -49,7 +49,6 @@ def barchart_restaurant_categories(db_filename):
         category_dict[category[0]] = category[1]
 
     sorted_category_dict = sorted(category_dict.items(), key = lambda x:x[1])
-
     sorted_dict = dict(sorted_category_dict)
 
 

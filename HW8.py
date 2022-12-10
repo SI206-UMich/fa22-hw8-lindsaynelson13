@@ -58,7 +58,6 @@ def barchart_restaurant_categories(db_filename):
     plt.tight_layout()
     plt.show()
 
-
     return category_dict
 
 

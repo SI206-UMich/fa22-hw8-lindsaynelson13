@@ -27,7 +27,6 @@ def get_restaurant_data(db_filename):
         restaurant_dict.append(d)
 
     return restaurant_dict
-
     pass
 
 def barchart_restaurant_categories(db_filename):
@@ -59,8 +58,6 @@ def barchart_restaurant_categories(db_filename):
     plt.show()
 
     return category_dict
-
-
     pass
 
 
